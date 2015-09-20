@@ -14,6 +14,10 @@ public class Solution05 {
 	private static Node SumList(Node node1, Node node2) {
 		// Time: O(n + m)
 		// Space O(max(n,m))
+		
+		// Follow up: If stored in forward order, first reverse
+		// these two lists, then do the same thing.
+		
 		Node zero = new Node(0);
 		Node ans = new Node(0);
 		
