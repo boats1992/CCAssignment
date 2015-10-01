@@ -1,0 +1,7 @@
+For this question, the problem is that 20GB data could not fit the memory.
+So we need to separately sort the file by chunks, say, if there are 4GB memory,
+	 we can divide the file into 5 chunks, each chunk can be sorted.
+After that, we try to merge the chunks one by one.
+
+
+In fact, this is the typical example for using MapReduce...
