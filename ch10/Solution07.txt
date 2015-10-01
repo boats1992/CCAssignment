@@ -1,0 +1,10 @@
+1. With 1GB memory, we can directly use a bitmap to store the
+	exsisting values, and scan the bitmap from the very beginning
+	to find the first missing element.
+
+2. With only 10MB memory, we need two passes to locate the answer.
+	In the first pass, we divide the numbers into several ranges. For
+	each range, we count the times that the array falls into that range,
+	if it does not meet the total number of the range, it means that
+	the missing element is in this range. After that, in the second
+	pass, we check all the numbers in that range to find the missing one.
