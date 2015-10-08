@@ -1,0 +1,9 @@
+For Game 1, the winning probability is p.
+
+For Game 2, the winning probability is: 
+	win three games: p^3,
+	plus win two games: 3 * (1 - p) * p^2,
+	which is 3 * p^2 - 2 * p^3.
+
+So if (p > 3 * p^2 - 2 * p^3) which p < 0.5,
+	 we choose Game 1, otherwise Game 2.

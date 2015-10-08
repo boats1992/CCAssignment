@@ -1,0 +1,3 @@
+Since each domino must be located on exactly one black block and one white block,
+			two black blocks (diagonally opposite corners) are removed,
+			so it is impossible.

@@ -1,0 +1,4 @@
+We mark each bottle from No.1 to No.20,
+	 from bottle No.1 we pick up 1 pill, from No.2 we pick up 2 pills, etc.
+	 After that the scale reads the weight x, where the bottle No. would
+	 be (x - 210) * 10.

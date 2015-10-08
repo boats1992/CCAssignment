@@ -1,0 +1,7 @@
+The times of toggle for each locker is the factor number of it.
+So we need to find the toggles with odd number of factors.
+
+So only square numbers has this property, which are
+1^2, 2^2, ..., 10^2.
+
+As a result, at last only 10 lockers are open.

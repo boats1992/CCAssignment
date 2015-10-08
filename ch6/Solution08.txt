@@ -1,0 +1,9 @@
+To minimize the number of drops for worst case, what we should do is
+to make drops of egg 1 as much possible equal as drops of egg 2.
+
+So each time after we drop egg 1 on nth floor, egg 2 will be allowed one
+less drop.
+
+So suppose we start from nth floor for egg 1,
+	 then n + (n-1) + (n-2) + ... + 1 = 100,
+	 where n is 14.

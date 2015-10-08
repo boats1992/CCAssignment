@@ -1,0 +1,5 @@
+For n-vertex polygon and n ants,
+		the probability of all same direction is
+		(1/2) ^ n * 2.
+		So the collision probability is
+		1 - (1/2) ^ (n-1).

@@ -1,0 +1,9 @@
+For only one man with blue eyes, he could see no one else with blue eyes and leave with 1 night.
+
+For two men with blue eyes, the find all other people not with blue eyes, they wait for one night to see
+if the other is the only one with blue eyes, and after that, they could leave on 2nd night.
+
+For more than two men with blue eyes, they count the number of blue-eyed man and wait for the same number
+of nights, and decide wether to leave or not.
+
+So for n men, it takes n nights.
